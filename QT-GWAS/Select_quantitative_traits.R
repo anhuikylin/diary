@@ -53,14 +53,15 @@ select_traits <- function(trait) {
     )
     
   }
-  message(paste0("\033[38;5;51m",rep("数据处理完成！！！",3), "\033[0m"))
+  message(paste0("\033[38;5;51m",rep("质量性状筛选完成！！！",3), "\033[0m"))
   return(result)
 }
 # 5.运行函数 ------------------------------------------------------------------
 # col：样本，row：代谢物
 trait <- read.xlsx("./data/mGWASqual.xlsx",rowNames = T)[1:2000,1:540]
-result <- select_traits(trait = trait[1:2000,])# 602
-
+result <- select_traits(trait = trait[1:2000,])# 778
+trait <- read.xlsx("./data/mGWASqual.xlsx",rowNames = T)[,1:540]
+result <- select_traits(trait = trait)
 # 6.对结果进行随机检验 ---------------------------------------------------------------
 
 table(result[,sample(1:ncol(result),size = 1,replace = F)])
