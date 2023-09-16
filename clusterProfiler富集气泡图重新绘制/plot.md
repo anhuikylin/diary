@@ -1,3 +1,5 @@
+### clusterProfiler结果重新绘制富集气泡图重新
+
 ```
 library(openxlsx)
 library(ggplot2)
@@ -43,3 +45,4 @@ ggplot(df1,aes(y = Description,x =Ratio,col = pvalue,size = Count))+
   labs(y = "")
 ggsave("b73_vs_xyl2.pdf",width = 8,height = 6)
 ```
+![输入图片说明](image.png)
