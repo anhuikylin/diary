@@ -1,4 +1,0 @@
-### QT-GWAS样品信息
-
-[QT-GWAS样品信息](https://gitee.com/anhuikylin/diary/blob/master/8%E6%9C%88/8%E6%9C%8824%E6%97%A5/%E6%B2%B3%E5%A4%A7%E4%BB%A3%E8%B0%A2%E5%AE%9E%E9%AA%8C%E9%87%8D%E5%A4%8D%E2%91%A0%EF%BC%8825K%EF%BC%89(1)(1).xlsx)
-![输入图片说明](../../picture/1692881534564.png)
