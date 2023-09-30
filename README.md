@@ -1,8 +1,6 @@
 # Data
 
 #### Data for MaizeTrait 🕳️🉐🥔🕳️ 
-
-
 ```
 library(MaizeTrait)
 df <- openxlsx::read.xlsx("YYOMEGA6.xlsx")
