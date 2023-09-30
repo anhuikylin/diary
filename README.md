@@ -1,5 +1,4 @@
-# diary
+# Data
 
-#### 介绍
-Experimental diary
+#### Data for MaizeTrait
 
